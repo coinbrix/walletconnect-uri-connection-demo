@@ -14,7 +14,7 @@ function App() {
   const [loading, setLoading] = useState(true)
 
 
-  const [apiKey, setApiKey] = useState()
+  const [apiKey, setApiKey] = useState('2')
 
   const initializeSingularity = () => {
     window.Singularity.init(apiKey, () => {
